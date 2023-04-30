@@ -6,4 +6,4 @@ Feito pelos alunos:
 - Guilherme Mafra da Costa
 - João Alexandre Ferraz
 - Matheus Baptistella
-- Ryan Viana
+- Ryan Braz Tintore Viana
