@@ -1,0 +1,17 @@
+=========================================================================
+                           INSTRUCOES DE USO
+=========================================================================
+
+Exercicio a)
+	- <path>/syseg/tools/hex2bin hw.hex -o hw.bin
+	- make hw.bin/run 
+
+Exercicio b)
+	- as --32 hw.S -o hw.o
+	- ld -melf_i386 --oformat=binary -Ttext=0x7c00 hw.o -o hw.bin
+	- make hw.bin/run
+
+Exercicio c)
+	- Ir ate o diretorio `plain_c`
+	- gcc hw-c.c -o hw-c.bin
+	- make hw-c.bin/run
